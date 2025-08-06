@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>College Event Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>College Event Registration</h1>
+
+  <form id="eventForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="email" id="email" placeholder="Email Address" required />
+    <select id="event">
+      <option value="tech_talk">Tech Talk</option>
+      <option value="sports_day">Sports Day</option>
+      <option value="cultural_night">Cultural Night</option>
+    </select>
+    <button type="submit">Register</button>
+  </form>
+
+  <p id="message"></p>
+
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
 
